@@ -49,6 +49,7 @@ class TestPass {
             System.out.println("\nThe passport is fake");
         else
             System.out.println("\nThe passport is real");
+        System.out.println("\nThe passport is real");
 
 
     }
