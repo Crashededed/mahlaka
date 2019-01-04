@@ -1,0 +1,4 @@
+
+*.xml
+out/production/mahlaka/.gitattributes
+.idea/workspace.xml
