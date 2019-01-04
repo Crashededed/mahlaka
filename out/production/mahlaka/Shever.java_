@@ -1,0 +1,16 @@
+class Shever
+{
+  private int mo;
+  private int me;
+  
+  public Shever(int x, int y)
+  {
+    this.mo=x;
+    this.me=y;
+  }
+  public String toString()
+  {
+    return this.mo+"/"+this.me;
+  }
+  
+}

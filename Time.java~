@@ -1,0 +1,42 @@
+public class Time
+{
+  private int x;
+  private int y;
+  
+  public Point(int x, int y)
+  {
+    this.x=x;
+    this.y=y;
+  }
+  
+    public int getX()
+  {
+    return this.x;
+  }
+  
+   public int getY()
+  {
+    return this.y;
+  }
+  
+    public void setX(int a)
+  {
+    this.x=a;
+  }
+    
+   public void setY(int b)
+  {
+    this.y=b;
+  }
+   
+  public String toString()
+  {
+    return "("+this.x+","+this.y+")";
+  }
+  
+  public boolean equal(Point other)
+  {
+    return this.x==other.x && this.y==other.y;
+  }
+
+  }

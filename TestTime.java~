@@ -1,0 +1,30 @@
+class TestTime
+  
+{
+
+  
+  public static void main(String[] args)
+  {
+    
+   Time1 a=new Time1(0,0);
+   System.out.println(a);
+   System.out.println(a.minFromMidnight());
+   Time1 b=new Time1(6,12);
+   System.out.println(b);
+   System.out.println(b.minFromMidnight());
+   boolean e=a.equals(b);
+   if(e)
+    System.out.println("they are equal");
+  else 
+    System.out.println("they are unequal");
+   System.out.println("a<b:"+a.before(b));
+   System.out.println("a>b:"+a.after(b));
+   System.out.println("a-b="+a.difference(b));
+   
+    
+  
+
+  
+  
+  }
+}

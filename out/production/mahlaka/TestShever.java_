@@ -1,0 +1,8 @@
+class TestShever
+{
+  public static void main(String[] args)
+  {
+   Shever a=new Shever(1,2);
+  System.out.println(a);
+}
+}
